@@ -1,0 +1,129 @@
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #5b79b4;
+    color: #dcddde;
+}
+
+main {
+    padding: 1rem;
+    margin: auto;
+    width: 40%;
+}
+
+.main-header {
+    width: 100%;
+    height: 4rem;
+    background-color: #202225;
+    padding: 0 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.product-form {
+    width: 20rem;
+    max-width: 90%;
+    margin: auto;
+}
+
+.deleteButton{
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    color: #fff;
+    padding-left: 1rem;
+    padding-right: 0.5rem;
+}
+
+.formcontrol {
+    margin: 1rem 0;
+}
+
+.flex{
+    display: flex;
+}
+
+.formcontrol label,
+.txtinput {
+    display: block;
+    width: 100%;
+    margin-bottom: 0.25rem;
+}
+
+
+.txtinput {
+    border: none;
+    font: inherit;
+    border-radius: 2px;
+    background-color: #41444b;
+    padding: 0.5rem;
+    color: #dcddde;
+    margin-bottom: 1rem;
+}
+
+.txtinput:focus {
+    outline-color: #007acc;
+}
+
+.disabled {
+    text-align: center;
+    margin-top: 0.8rem;
+}
+
+.btn {
+    font: inherit;
+    border: none;
+    color: #41444b;
+    background: #ffffff;
+    border-radius: 30px;
+    font-weight: 700;
+    font-size: 1rem;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+    margin-top: 2rem;
+    padding: 0.5rem 2rem;
+}
+  
+.btn:hover,
+.btn:active {
+    background-color: #FFF;
+}
+
+::placeholder{
+    color: #6e7178;
+}
+
+.bmiResults{
+    text-align: center;
+    padding-top: 2rem;
+}
+
+.bmiResultSpan,
+.bmiResponseSpan{
+    color: #FFF;
+    font-size: 1.8rem;
+}
+
+.errorBox{
+    background-color: #db564c;
+    color: #FFF;
+    border-radius: 5px;
+    height: wrap;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2rem;
+    padding: 1rem 2rem;
+    animation: fadein 1s;
+}
+
